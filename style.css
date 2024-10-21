@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url(IMG-20241012-WA0191.jpg);
+    background-position: center;
+    background-size: 90%;
+    margin: 0%;
+    border: 0%;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.textos {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    z-index: 2;
+
+}
+.album {
+    height: -25vh;
+    justify-content: center;
+    display: inline-table;
+    z-index: 3;
+}
+video {
+    width: 32vw;
+    min-height: 100vh;
+    display: inline;
+    justify-content: space-between;
+    z-index: 4;
+
+}
+.titulo {
+    font-style: italic;
+    font-size: 300%;
+    color: white;
+    z-index: 2;
+}
